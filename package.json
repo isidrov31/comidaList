@@ -1,0 +1,10 @@
+{
+  "name": "comidaList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "isidrov31 <127324143+isidrov31@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  }
+}
