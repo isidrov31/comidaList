@@ -5,6 +5,7 @@
   "author": "isidrov31 <127324143+isidrov31@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   }
 }
