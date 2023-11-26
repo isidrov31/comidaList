@@ -1,0 +1,109 @@
+
+/* Agrega estos estilos en tu archivo de hoja de estilos CSS */
+.btn-sm {
+    font-size: 0.8rem; /* Puedes ajustar el tamaño del texto según tus preferencias */
+    padding: 0.25rem 0.5rem; /* Ajusta el padding según tus preferencias */
+    transition: transform 0.2s; /* Agrega una transición para un efecto de hover suave */
+}
+    /* Estilos adicionales para el hover */
+    .btn-sm:hover {
+      transform: scale(1.1); /* Hace que el botón sea un poco más grande al hacer hover */
+}
+
+/* Agrega este código a tu archivo de estilos CSS */
+
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+  .nav-item {
+    margin-bottom: 8px;
+  }
+  
+  .nav-link {
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #e2e6ea;
+  }
+  
+  /* Añade la clase .flex-column para disponer los elementos verticalmente */
+  .navbar-nav.flex-column {
+    align-items: start; /* Alinea los elementos a la izquierda */
+  }
+  
+  #crearMenu,
+  #verRecetas,
+  #contabilizador {
+    margin-top: 20px;
+  }
+  
+  .row{
+    background-color: #dee2e6;
+    border-radius: 5px;
+  }
+
+  .addComidaTitle{
+    display: flex;
+    align-items: center;
+  }
+
+  .addComidaTitle h2 {
+    animation: fadeInUp 5s ease-out; /* Puedes ajustar la duración y el tipo de animación según tus preferencias */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.addComida{
+    display: flex;
+    align-items: center;
+  }
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+h3{
+    width: 100%;
+}
+
+.btn-sm {
+   width: 20%;
+}
+
+.card{
+  --bs-card-bg: black
+}
+
