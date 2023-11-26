@@ -4,8 +4,7 @@ const nombreComida = document.getElementById("nombreComida");
 const tipoComida = document.getElementById("tipoComida");
 const comidasAgregadas = document.getElementById("comidasAgregadas")
 
-const baseUrl = "http://localhost:4001/api"
-
+const baseUrl = `${window.origin}/api`
 let comidaEdit = null
 
 //le doy funcionalidad a los botones
