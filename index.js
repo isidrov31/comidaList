@@ -10,9 +10,9 @@ const path = require('path');
 
 mongoose.connect(process.env.MONGODB_URL)
 .then(() =>{
-    console.log("conexion exitosa a la base de datos")
+    console.log("conexion exitosa a la BBDD")
 })
-.catch((error) => console.log("hubo un error al conectarse a la base de datos", { error}))
+.catch((error) => console.log("hubo un error al conectarse a la BBDD", { error}))
 
 const comidaSkema = new Schema({
   name: String,
